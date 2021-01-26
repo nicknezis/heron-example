@@ -19,7 +19,10 @@ pex \
     --entry-point=my_topology \
     --output=my_topology.pex \
     .
-heron submit my_topology.pex -
+```
+To submit to heron you can use the following pattern: `heron submit <artifact> - <topology name>`
+```
+heron submit my_topology.pex - my_topology
 ```
 
 Trivia:
