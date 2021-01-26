@@ -26,5 +26,5 @@ heron submit my_topology.pex - my_topology
 ```
 
 Trivia:
- * a pex is a zip file, so you can inspect the contents to see your packaged files, e.g. `unzil -l my_topology.pex | grep my_topology`
+ * a pex is a zip file, so you can inspect the contents to see your packaged files, e.g. `unzip -l my_topology.pex | grep my_topology`
  * a pex can be executed (thanks to python executing zip files [e.g. "eggs"]) e.g. `./my_topology.pex` (what heron can do internally to get data about the topology)
